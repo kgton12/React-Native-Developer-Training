@@ -1,0 +1,38 @@
+{
+  "name": "bat-pass-app",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "type": "module",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "format": "prettier --write \"src/**/*.{js,jsx,ts,tsx}\"",
+    "lint": "eslint \"src/**/*.{js,jsx,ts,tsx}\" --fix",
+    "fl": "prettier --write \"src/**/*.{js,jsx,ts,tsx}\" && eslint \"src/**/*.{js,jsx,ts,tsx}\" --fix"
+  },
+  "dependencies": {
+    "@expo/metro-runtime": "~4.0.0",
+    "expo": "~52.0.3",
+    "expo-status-bar": "~2.0.0",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "react-native": "0.76.1",
+    "react-native-web": "~0.19.13",
+    "expo-clipboard": "~7.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.25.2",
+    "@types/react": "~18.3.12",
+    "@typescript-eslint/eslint-plugin": "^8.14.0",
+    "@typescript-eslint/parser": "^8.14.0",
+    "eslint": "^9.14.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-react": "^7.37.2",
+    "eslint-plugin-unused-imports": "^4.1.4",
+    "prettier": "^3.3.3",
+    "typescript": "^5.3.3"
+  },
+  "private": true
+}
